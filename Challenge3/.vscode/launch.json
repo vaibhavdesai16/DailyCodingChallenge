@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - App2",
+            "request": "launch",
+            "mainClass": "dailychallenge.App2",
+            "projectName": "challege3"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - App",
             "request": "launch",
             "mainClass": "dailychallenge.App",

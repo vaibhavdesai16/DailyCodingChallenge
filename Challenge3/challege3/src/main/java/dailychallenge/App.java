@@ -8,6 +8,7 @@ public class App {
         missingPositive(arr);
     }
 
+    //using linear space coplexity
     public static void missingPositive(int[] arr) {
         HashMap<Integer, Integer> map = new HashMap<>();
         int missingPositive = Integer.MAX_VALUE;
