@@ -5,30 +5,27 @@ package dailychallenge;
  */
 public class App2 {
     public static void main(String[] args) {
-        int[] arr = {3, 4, -1, 1};
+        int[] arr = { 3, 4, -1, 1 };
         missingPositive(arr);
     }
 
-    public static void missingPositive(int[] arr){
-        int max = 0;
-        int min = Integer.MAX_VALUE;
-        int total = 0;
-        int count = 1;
-        for(int num: arr){
-            if(num > 0){
-                if(num > max)
-                    max = num;
-                else if(num < min)
-                    min = num;
-                    
-                count++;
-                total += num;
-            }
-        }
+    private swapValue(int[] arr, int i) {
+        if(arr[i] == i + 1) {
+            return;
+        } else if(arr[i] + 1 < arr.length) {
 
-        int missingnum = (((max + min)*count)/2) - total;
-        System.out.println(missingnum);
+        }
     }
 
+    public static void missingPositive(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            int num = arr[i];
+            if(num == i - 1 || num < 1) {
+                continue;
+            } else if(num <= arr.length) {
+                
+            }
+        }
+    }
 
 }
