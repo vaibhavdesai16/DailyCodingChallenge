@@ -1,0 +1,9 @@
+find missing number in given unsorted array of integers. Arrya has duplicated value of integer instead of missing integer.
+
+example 1
+input array - [0,6,2,4,1,4,5]
+output array  3 as its missing
+
+example 2
+input array - [9,1,2,3,5,6,7,7,8,9,0]
+output array 4 as its missing
