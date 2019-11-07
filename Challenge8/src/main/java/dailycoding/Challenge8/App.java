@@ -8,12 +8,10 @@ public class App
 {
     public static void main( String[] args )
     {
-    	int[] arr  = {3, 0, 1, 3, 0, 5};
-    	//int[] arr  = {2,1,4,0,3,1};
-    	System.out.println(rainStorage(arr));
+    	
     }
     
-    public static int rainStorage(int arr[]) {
+    public  int rainStorage(int arr[]) {
     	int unitWater = 0;
     	int[] previousTallest = new int[arr.length];
     	int[] nextTallest = new int[arr.length];
